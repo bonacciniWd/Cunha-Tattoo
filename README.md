@@ -14,8 +14,8 @@ Siga estas etapas para configurar o projeto em sua máquina local.
 ### Clonar o Repositório
 
 ```bash
-git clone https://github.com/bonacciniWd/soberana-luxo.git
-cd soberana-luxo
+git clone https://github.com/bonacciniWd/Cunha-Tattoo.git
+cd Cunha-Tattoo
 ```
 
 ### Instalação de Dependências
