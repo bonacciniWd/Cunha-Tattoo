@@ -9,9 +9,8 @@
   }
   
   .h1 {
-    color: #ffd700;
+    color: #ff0000;
     font-size: 38px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
   }
   
   .p {
@@ -24,6 +23,16 @@
 } 
 
 @media screen and (max-width: 768px) {
+
+  .gabriel {
+    width: 210px;
+    height: auto;
+    justify-content: center;
+    border-radius: 50% ;
+    border: 2px solid #fff;
+    background: linear-gradient(to left, #000000, #46484d, #b6b8bd,  #d7d6d6);
+  }
+  
   .content {
     margin-top: 25px;
     text-align: center;
@@ -35,12 +44,28 @@
     }
     
     .h1 {
-      color: #ffd700;
-      font-size: 26px;
+      color: #ff0000;
+      font-size: 28px;
     }
     
     .p {
       color: antiquewhite;
-      font-size: 16px;
+      font-size: 18px;
+      line-height: 1.4;
+      font-weight: 600;
+    }
+
+    .p-2 {
+      color: #fff;
+      margin-top: 25%;
+       text-transform: uppercase;
+      font-weight: bold;
+       font-size: 20px;
+       padding: 10px;
+       border: #ff0000 2px dashed;
+       border-radius: 10%/90%;
+      background:#00000066;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto */
+
     }
 }

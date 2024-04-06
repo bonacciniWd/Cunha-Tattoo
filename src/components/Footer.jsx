@@ -1,24 +1,18 @@
 import React from 'react';
 import './Footer.css'; // Importe o arquivo de estilos para o Footer
-import Bonaccini from '../components/assets/logo.svg'
+import Bonaccini from '../components/assets/logo-vr.svg'
 
 const Footer = () => {
   return (
     
     <footer className="footer">
-      <nav>
-        <ul className="nav-li">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">Sobre</a></li>
-          <li><a href="/contact">Contato</a></li>
-        </ul>
-      </nav>
+     
       <div className="logo-1">
        <a href="https://vrz-studio.tech" target="_blank" rel="noopener noreferrer">
          <img src={Bonaccini} alt="Logo" />
        </a>
       </div>
-      <p className="copyright">© 2023 Soberana Acessórios de Luxo</p>
+      <p className="copyright">© 2024 Gabriel da Cunha Tattoo & Piercing</p>
     </footer>
   );
 };

@@ -28,21 +28,21 @@
   /* Estilo do iframe dentro dos slides */
   .carouseli .slide iframe {
     max-width: 98%; /* Preencher todo o slide horizontalmente */
-    height: 600px; /* Preencher todo o slide verticalmente */
-    border: 2px solid #ffd700; /* Remover a borda do iframe */
+    height: 410px; /* Preencher todo o slide verticalmente */
+    border: #ff0000 1.5px solid; /* Remover a borda do iframe */
     border-radius: 15px; /* Borda arredondada */
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
   }
 
   .carouseli .texti {
     font-size:24pt !important ;
-    color: #ffd700;
+    color: #ff0000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
     padding: 10px 15px;
     
   }
   .carouseli .descriptioni {
-    color: #ffd700;
+    color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
     animation: pulseRight 1s infinite alternate;
     padding: 10px 15px;

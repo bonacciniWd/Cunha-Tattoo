@@ -10,13 +10,13 @@ const Info = () => {
     <div className="layout-container">
        <div className="top-text">
         <h2 className="c-2-title"><FcSlrBackSide /> TOUR VIRTUAL</h2>
-        <p className="c-2">Conheça a Soberana através de um tour virtual do nosso espaço interno. </p>
+        <p className="c-2">Conheça meu estúdio através de um tour virtual do nosso espaço interno. </p>
       </div>
       <div>
       <iframe
-        title="Tour Virtual da Soberana Acessórios de Luxo"
+        title="Tour Virtual Cunha Tattoo"
         allowfullscreen
-        src="https://tourmkr.com/F1g0P5rL3w"
+        src="https://tourmkr.com/F1Te1IiSly"
       ></iframe>
        <div className="side-space" />
     </div>

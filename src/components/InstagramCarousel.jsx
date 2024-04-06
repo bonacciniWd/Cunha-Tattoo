@@ -6,10 +6,10 @@ import "./InstagramCarousel.css";
 const InstagramCarousel = () => {
   // Define os feeds do Instagram
   const instagramFeeds = [
-    "https://www.instagram.com/p/C40h8dKOkuo/embed/",
-    "https://www.instagram.com/p/C3_Gc_UiZot/embed/",
-    "https://www.instagram.com/p/CyCQmiXJD1H/embed/",
-    "https://www.instagram.com/p/CyCGeirJOMa/embed/",
+    "https://www.instagram.com/p/CxdVPqNuOs3/embed/",
+    "https://www.instagram.com/p/CqdVmgLu5R7/embed/",
+    "https://www.instagram.com/p/CylcsDeOkai/embed/",
+    "https://www.instagram.com/p/CwAqhxcuFlA/embed/",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

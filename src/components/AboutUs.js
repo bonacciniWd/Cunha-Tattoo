@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './SobreCard.css';
-import videoUrl from '../components/assets/fundo-soberana.mp4';
+import videoUrl from '../components/assets/bg-video.mp4';
 import SobreCard from './SobreCard';
 
 const Main = () => {

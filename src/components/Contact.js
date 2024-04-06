@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './ContatoCard.css';
-import videoUrl from '../components/assets/fundo-soberana.mp4';
+import videoUrl from '../components/assets/bg-video.mp4';
 import ContatoCard from './ContatoCard';
 import soberana from './assets/Soberana.png';
 

@@ -1,14 +1,15 @@
-# Soberana Luxo - Aluguel de Joias 💍👸
+# GC Tattoo Studio 🖋️💉
 
-Bem-vindo ao repositório do projeto Soberana Luxo, o seu destino premium para aluguel de joias deslumbrantes. Aqui, você encontrará informações importantes sobre como configurar, desenvolver e implantar nosso aplicativo React.
+Bem-vindo ao repositório do projeto GC Tattoo Studio, o seu destino para arte corporal personalizada e de alta qualidade. Aqui, você encontrará informações importantes sobre como configurar, desenvolver e implantar nosso estúdio de tatuagem e piercing.
 
 ## Visão Geral
 
-Soberana Luxo é uma plataforma de aluguel de joias de luxo, oferecendo aos clientes uma experiência única de usar joias elegantes para ocasiões especiais. Este repositório contém o código-fonte do aplicativo web que impulsiona a nossa plataforma.
+GC Tattoo Studio é um estúdio de tatuagem e body piercing, oferecendo aos clientes uma experiência excepcional e única em arte corporal. Este repositório contém o código-fonte do aplicativo web que impulsiona o nosso estúdio.
 
 ## Começando
 
 Siga estas etapas para configurar o projeto em sua máquina local.
+
 
 ### Clonar o Repositório
 

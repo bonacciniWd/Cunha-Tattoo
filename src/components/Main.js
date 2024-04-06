@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Main.css';
-import videoUrl from '../components/assets/fundo-soberana.mp4';
+import videoUrl from '../components/assets/bg-video.mp4';
 import ImageSection from './ImageSection';
 import InstagramCarousel from './InstagramCarousel';
 import Info from './Info';

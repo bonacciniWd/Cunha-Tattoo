@@ -14,17 +14,17 @@ const ImageSection = () => {
           <div className="image-block">
             <Link to="/noiva" className="link-no-underline">
               <Tilt options={{ max: 25 }}>
-                 <img src={Imagem} alt="Nova Imagem" loading="lazy" />
+                 <img src={Imagem} alt="Nova Imagem"  />
               </Tilt>
-              <p className="p-1-title">NOIVA</p>
+              <p className="p-1-title">OLD SCHOOL</p>
             </Link>
           </div>
 
       <div className="image-block" href="/formanda">
       <Tilt options={{ max: 25 }}>   
         <Link to="/formanda" className="link-no-underline">  
-            <img src={Imagem2} alt="Nova Imagem" loading="lazy" />
-            <p className="p-1-title">FORMANDA</p>
+            <img src={Imagem2} alt="Nova Imagem"  />
+            <p className="p-1-title">BLACK WORK</p>
         </Link>
       </Tilt>  
       </div>
@@ -32,8 +32,8 @@ const ImageSection = () => {
       <div className="image-block" href="/convidada">
         <Tilt options={{ max: 25 }}>
           <Link to="/convidada" className="link-no-underline"  >
-            <img src={Imagem3} alt="Nova Imagem" loading="lazy" />
-            <p className="p-1-title">CONVIDADA</p>
+            <img src={Imagem3} alt="Nova Imagem"  />
+            <p className="p-1-title">PONTILHISMO</p>
           </Link>
         </Tilt>  
       </div>
@@ -41,8 +41,8 @@ const ImageSection = () => {
       <div className="image-block">
        <Tilt options={{ max: 25}}>
         <Link to="/15anos" className="link-no-underline"  > 
-          <img src={Imagem4} alt="Nova Imagem" loading="lazy" />
-          <p className="p-1-title">15 ANOS</p>
+          <img src={Imagem4} alt="Nova Imagem" />
+          <p className="p-1-title">REALISMO</p>
         </Link>
        </Tilt> 
       </div>
@@ -50,8 +50,8 @@ const ImageSection = () => {
       <div className="image-block" href="/ensaio">
        <Tilt options={{ max: 25}}>   
           <Link to="/ensaio" className="link-no-underline"  >  
-            <img src={Imagem5} alt="Nova Imagem" loading="lazy" />
-            <p className="p-1-title">ENSAIO FOTOGRÁFICO</p>
+            <img src={Imagem5} alt="Nova Imagem"  />
+            <p className="p-1-title">BODY PIERCING</p>
           </Link>
        </Tilt>
       </div>

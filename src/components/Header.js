@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logoDesktop from '../components/assets/logo.png';
-import logoMobile from '../components/assets/logo-mobile.png';
+import logoDesktop from '../components/assets/logo.svg';
+import logoMobile from '../components/assets/logo.svg';
 
 const Header = () => {
   return (
