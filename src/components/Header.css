@@ -1,7 +1,7 @@
 .header {
-  background: linear-gradient(to right, #000000, #202328, #282b30,  #d7d6d6);
+  background: linear-gradient(to left, #000000, #202328, #b6b6b9,  #d7d6d6);
   color: #fbfbfa;
-  height: 90px;
+  height: 80px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -63,7 +63,7 @@
 /* Adicione um media query para dispositivos menores */
 @media screen and (max-width: 768px) {
   .header {
-    height: 80px; /* Reduz a altura no mobile */
+    height: 90px; /* Reduz a altura no mobile */
   }
 
   .desktop-logo {
@@ -72,7 +72,8 @@
 
   .mobile-logo {
     display: block;
-    width: 80%;
+    height: 90px;
+    margin-left: -25px;
   }
 
   .nav-links li {

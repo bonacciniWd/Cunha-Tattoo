@@ -4,10 +4,10 @@ import Wpp from '../components/assets/wpp-logo.svg';
 
 const Wppbtn = () => {
   // Mensagem personalizada
-  const message = encodeURIComponent('Olá! vim através do site da Soberana, gostaria de atendimento personalizado 🌟');
+  const message = encodeURIComponent('Olá! vim através do seu site🖋️💉, gostaria de um atendimento exclusivo... 😃');
 
   // Link para a conversa no WhatsApp com a mensagem personalizada
-  const whatsappLink = `https://wa.me/554796420304?text=${message}`;
+  const whatsappLink = `https://wa.me/5547997109718?text=${message}`;
 
   return (
     <a

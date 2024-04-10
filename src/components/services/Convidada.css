@@ -42,6 +42,9 @@
     margin-top: 20px; /* Increase margin-top for more spacing from the edge */
     margin-bottom: 20px; /* Increase margin-bottom for more spacing from the edge */
     font-size: 24px;
+    font-weight: 700;
+    padding: 2%;
+    
     color: antiquewhite;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
   }
@@ -50,7 +53,7 @@
     margin-top: 15px;
     font-size: 28px ;
     font-weight: bold;
-    color: #ffd700;
+    color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
   }
 
@@ -153,7 +156,7 @@
       border-radius: 200px;
       transition: transform 0.3s ease;
       border: 2px solid transparent;
-      background: linear-gradient(to bottom, #ffd700, white);
+      background: linear-gradient(to bottom, #ff0000, white);
     }
 
 }

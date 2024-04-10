@@ -8,7 +8,7 @@ import mapDesktop from '../components/assets/map-desk.png';
 const ContactCard = () => {
   // Função para copiar o texto para a área de transferência
   const copyTextToClipboard = () => {
-    const textToCopy = "Rua Duque de Caxias, 557 sala 01 Bairro Vila Operária em Itajaí";
+    const textToCopy = "Rua Marrocos, N-540, Sala 6, Nações, Balneário Camboriú";
     
     // Cria um elemento de texto temporário
     const textArea = document.createElement("textarea");
@@ -35,18 +35,11 @@ const ContactCard = () => {
       <div className="contact-card">
         <h2>Sobre</h2>
         <p onClick={copyTextToClipboard}>
-          Nossa loja física está localizada na<br />
-          <span className="blue-text">Rua Duque de Caxias, 557 sala 01 Bairro Vila Operária em Itajaí.</span>
+          Nosso estúdio está localizado na<br />
+          <span className="blue-text">Rua Marrocos, N-540, Sala 6, Nações, Balneário Camboriú</span>
         </p>
-        <Link to="https://www.google.com/maps/place/Soberana+Acess%C3%B3rios+de+Luxo+-+Rua+Duque+de+Caxias,+sala+01+-+Vila+Operaria,+Itaja%C3%AD+-+SC/@-26.9551952,-48.7410972,13z/data=!4m5!3m4!1s0x94d8cda8290529a3:0x3854b2d8a5b6c543!8m2!3d-26.9121902!4d-48.6732556?entry=ttu" target="_blank"> 
-            
-            <img
-                src={mapDesktop}
-                className="map"
-            />
-           
-        </Link>    
-        <p>Nosso horário de atendimento é das 10h às 12h e das 13h30 às 19h.<br />ㅤ</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.6100917608305!2d-48.6483403245582!3d-26.97924417660762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b724035f5ee5%3A0x702f7090bc83eb35!2sSilvio%20Ignacio%20Tattoo%20Studio!5e0!3m2!1spt-BR!2sbr!4v1712705872081!5m2!1spt-BR!2sbr" width="400" height="300"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Aberto à visitas das 10:00 AM, 20:00 PM.<br /><br /> Atendimento apenas agendamentos.ㅤ</p>
         
       </div>
     </div>
@@ -54,3 +47,5 @@ const ContactCard = () => {
 }
 
 export default ContactCard;
+
+

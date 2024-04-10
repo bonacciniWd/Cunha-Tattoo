@@ -1,71 +1,128 @@
+@font-face {
+  font-family: 'disney';
+  src: url('../components/assets/fonts/waltograph42.ttf') format('truetype');
+}
+
 @media screen and (min-width: 769px) {
-.content {
-  margin-top: 60px;
-  text-align: center;
-  display:row;
-  justify-content:center;
-  align-items: flex-start;
-  padding: 50px;
+  .content {
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center; /* Ajustado para o centro */
+    align-items: center; /* Ajustado para o centro */
+    padding: 50px;
   }
-  
+
   .h1 {
     color: #ff0000;
     font-size: 38px;
+    font-family: 'disney'; /* Alterado para a fonte personalizada */
   }
-  
+
   .p {
     color: antiquewhite;
     font-size: 26px;
     margin-left: 13%;
     margin-right: 13%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-} 
+}
 
 @media screen and (max-width: 768px) {
+  .inicio-vid {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 3px solid #fffefe;
+  }
+
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff000097;
+    border-radius: 20%;
+    color: #ffffff;
+    border: solid 1px #000;
+    font-size: 1.5rem;
+    padding: 12px 18px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+  .play-button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 
   .gabriel {
-    width: 210px;
+    width: 350px;
     height: auto;
-    justify-content: center;
-    border-radius: 50% ;
-    border: 2px solid #fff;
-    background: linear-gradient(to left, #000000, #46484d, #b6b8bd,  #d7d6d6);
+    position: relative;
+    animation: slideUp 1s ease-out forwards;
+    bottom: -100%;
+    z-index: 1;
   }
-  
+
+  @keyframes slideUp {
+    0% {
+      bottom: -100%;
+    }
+    100% {
+      bottom: 0;
+    }
+  }
+
   .content {
     margin-top: 25px;
     text-align: center;
-    display:row;
-    justify-content:center;
-    align-items: flex-start;
+    justify-content: center; /* Ajustado para o centro */
+    align-items: center; /* Ajustado para o centro */
     padding: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
-    }
-    
-    .h1 {
-      color: #ff0000;
-      font-size: 28px;
-    }
-    
-    .p {
-      color: antiquewhite;
-      font-size: 18px;
-      line-height: 1.4;
-      font-weight: 600;
-    }
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
 
-    .p-2 {
-      color: #fff;
-      margin-top: 25%;
-       text-transform: uppercase;
-      font-weight: bold;
-       font-size: 20px;
-       padding: 10px;
-       border: #ff0000 2px dashed;
-       border-radius: 10%/90%;
-      background:#00000066;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra de texto */
+  .h1 {
+    color: #ff0000;
+    font-size: 3rem;
+    font-family: 'disney'; /* Alterado para a fonte personalizada */
+  }
 
+  .p {
+    color: antiquewhite;
+    font-size: 18px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: -4px;
+    border: solid 1px #ff0000;
+    border-radius: 5px;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
+  .p-2 {
+    color: #fff;
+    margin-top: 25%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border: #ff0000 2px dashed;
+    border-radius: 10%/90%;
+    background: #00000066;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
     }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 }

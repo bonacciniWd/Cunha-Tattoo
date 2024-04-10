@@ -41,9 +41,10 @@ useEffect(() => {
       <div className="new-cont">
         <div className="image-bl">
           <img src={Imagem} alt="Nova Imagem" /> 
-          <p className="c-1-title">Formanda</p>  
-          <p className="c-1">Sabemos que a Formatura é um março significativo na sua vida profissional, é um momento de celebração e reconhecido de todo o esforço e dedicação ao longo dos últimos anos. <br/> Acreditamos que os detalhes fazem toda a diferença em ocasiões tão memoráveis, por isso oferecemos um seleção exclusiva de acessórios elegantes e sofisticados, perfeitos para realçar a sua beleza e completar seus looks de formatura.</p>
-          <ContactButton message="Olá, vim através do site da Soberana, gostaria de mais informações sobre os serviços voltados à formaturas." />
+          <p className="c-1-title">BLACK WORK</p>  
+          <p className="c-1">As tatuagens Blackwork são uma forma única e impressionante de expressão artística na arte corporal. <br/> Originárias das tradições da tatuagem tribal e étnica, as tatuagens Blackwork evoluíram para abraçar uma ampla variedade de estilos e técnicas.</p>
+          <p className="c-1"> Caracterizadas por designs intrincados e detalhes impressionantes, essas tatuagens são marcadas pelo uso predominante de tinta preta para criar padrões e formas distintas. </p>
+          <ContactButton message="Olá vim através do site do seu site, gostaria saber sobre BlackWork" />
         </div>
       </div>  
       <div className="art-gallery">

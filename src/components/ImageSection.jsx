@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {Tilt} from 'react-tilt'; // Importe o componente Tilt
 import './ImageSection.css'; // Importe o CSS específico para essa seção
-import Imagem from '../components/assets/Imagem.jpg';
+import Imagem from '../components/assets/cv2.jpg';
 import Imagem2 from '../components/assets/Imagem2.jpg';
 import Imagem3 from '../components/assets/Imagem3.jpg';
 import Imagem4 from '../components/assets/Imagem4.jpg';
@@ -16,7 +16,7 @@ const ImageSection = () => {
               <Tilt options={{ max: 25 }}>
                  <img src={Imagem} alt="Nova Imagem"  />
               </Tilt>
-              <p className="p-1-title">OLD SCHOOL</p>
+              <p className="p-1-title">PRETO E CINZA</p>
             </Link>
           </div>
 

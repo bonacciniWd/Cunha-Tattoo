@@ -39,9 +39,9 @@ useEffect(() => {
       <div className="new-cont">
         <div className="image-bl">
           <img src={Imagem} alt="Nova Imagem"  /> 
-          <p className="c-1-title">NOIVA</p>  
-          <p className="c-1">Ser noiva é viver a alegria de um novo começo, onde cada batida do coração é um passo mais perto de um para sempre sonhado. <br/> E cada detalhe é muito importante para tornar o seu “novo começo” num dia inesquecível. Viver a experiência de nossa consultoria, tornará o processo de escolha do teus acessórios algo prazeroso e assertivo.</p>
-          <ContactButton message="Olá, vim através do site da Soberana, gostaria de saber sobre os serviços de noiva." />
+          <p className="c-1-title">PRETO E CINZA</p>  
+          <p className="c-1">A tatuagem em preto e cinza é uma forma de arte corporal que utiliza sombras e tons de cinza para criar imagens detalhadas e expressivas. Originada de técnicas antigas, essa forma de arte evoluiu para incluir uma variedade de estilos, desde retratos realistas até imagens simbólicas.<br/> Cada tatuagem em preto e cinza é uma obra-prima de habilidade artística, destacando-se pela sua sutileza e sofisticação.  </p>
+          <ContactButton message="Olá vim através do seu site e gostaria de saber sobre arte em preto e cinza..." />
         </div>
       </div> 
       <div className="art-gallery">

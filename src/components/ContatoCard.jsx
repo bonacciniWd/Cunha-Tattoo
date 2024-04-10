@@ -9,7 +9,7 @@ import { FaWhatsapp, FaMailBulk, FaInstagram } from 'react-icons/fa';
 const ContactCard = () => {
   // Função para copiar o texto para a área de transferência
   const copyTextToClipboard = () => {
-    const textToCopy = "soberana.luxo@gmail.com";
+    const textToCopy = "gabrieldacunha199@icloud.com";
     
     // Cria um elemento de texto temporário
     const textArea = document.createElement("textarea");
@@ -37,16 +37,16 @@ const ContactCard = () => {
         <h2>Contato</h2>
         <p onClick={copyTextToClipboard}>
             <FaMailBulk style={{color:'#007BFF'}} /> Email: <br />
-            <span className="blue-text">soberana.luxo@gmail.com</span>
+            <span className="blue-text">gabrieldacunha199@icloud.com</span>
         </p>
         <p>
          <FaWhatsapp style={{color:'#25D366'}} className="whatsapp-icon"/>  WhatsApp: <br />
-           <span className="blue-text">(47) 99792-8173</span> 
+           <span className="blue-text">(47) 99710-9718</span> 
         </p>
         
         <p>
          <FaInstagram style={{color:'#E4405F'}} className="whatsapp-icon"/>  Instagram <br />
-           <span className="blue-text">@soberana.luxo</span> 
+           <span className="blue-text">@gabrielcunhatattoo</span> 
         </p>
         <p>
          <FaInstagram style={{color:'#E4405F'}} className="whatsapp-icon"/>  Exclusão de dados <br />

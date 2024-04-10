@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Convidada.css';
 import videoUrl from '../assets/bg-video.mp4';
-import Imagem from '../assets/Imagem2.jpg';
+import Imagem from '../assets/cv2.jpg';
 import ContactButton from './ContactButton';
 
 import cv1 from '../assets/cv1.jpg';
@@ -40,12 +40,11 @@ useEffect(() => {
       <div className="content">
         <div className="image-bl">
           <img src={Imagem} alt="Nova Imagem" /> 
-          <p className="c-1-title">CONVIDADA</p>  
-          <p className="c-1">A vida não tem replay, por isso precisamos contemplar todos os momentos felizes e marcantes de nossas vidas.</p>
-          <p className="c-1"> Um evento especial fica marcado para sempre em nossa memória, por isso todos os detalhes são importantes para torná-lo ainda mais inesquecível.</p>
-          <p className="c-1">Nossos acessórios trazem beleza e sofisticação ao look, tornando a produção ainda mais linda e memorável.</p>
+          <p className="c-1-title">PONTILHISMO</p>  
+          <p className="c-1">O pontilhismo é uma forma diferente de arte corporal, que utiliza técnicas e aplicações em pontos sobre a pele, resultando em padrões texturizados e detalhados.</p>
+          <p className="c-1">A técnica única do pontilhismo proporciona uma estética visualmente intrigante, à medida que os pontos se combinam para formar imagens vívidas e detalhadas. <br/>Além de sua beleza estética, as tatuagens de pontilhismo muitas vezes carregam significados simbólicos profundos, refletindo temas como conexão espiritual, jornada pessoal e apreciação pela beleza da natureza.</p>
         </div>
-        <ContactButton message="Olá! eu vim através do site da Soberana, e gostaria de mais informações sobre os serviços de Convidada e (ou) Madrinha." /> 
+        <ContactButton message="Olá, vim através do seu site e gostaria de saber sobre Pontilhismo" /> 
       </div>  
       <div className="art-gallery">
         <h1 className="text">GALERIA</h1>

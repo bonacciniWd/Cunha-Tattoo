@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
         .map {
             border-radius: 10px;
-            border: 1px solid #ffd700;
+            border: 1px solid #ff0000;
             height: 160px;
             width: auto;
             margin: 8px;
