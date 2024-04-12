@@ -1,14 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import './Convidada.css';
 import videoUrl from '../assets/bg-video.mp4';
-import Imagem from '../assets/Imagem.jpg';
+import Imagem from '../assets/cv2.jpg';
 import ContactButton from './ContactButton';
 
-import nv1 from '../assets/nv1.jpg';
-import nv2 from '../assets/nv2.jpg';
-import nv3 from '../assets/nv3.jpg';
-import nv4 from '../assets/nv4.jpg';
-import nv5 from '../assets/nv5.jpg';
+import nv1 from '../assets/cv1.jpg';
+import nv2 from '../assets/cv2.jpg';
+import nv3 from '../assets/cv3.jpg';
+import nv4 from '../assets/cv4.jpg';
+import nv5 from '../assets/cv5.jpg';
 
 
 

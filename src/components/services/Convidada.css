@@ -7,6 +7,7 @@
     text-align: center;
     justify-content: space-between;
     align-items: flex-start;
+    display: block;
     padding: 50px 100px; /* Adjust vertical and horizontal padding */
   }
   
@@ -222,7 +223,7 @@
      }
  
      .new-cont {
-       display: block; /* Altera para exibição em bloco */
+       display: block !important; /* Altera para exibição em bloco */
        padding: 20px; /* Reduz o espaçamento interno no mobile */
      }
    
@@ -263,7 +264,8 @@
     }
   
     .new-cont {
-      padding: 90px 90px; /* Adjust padding for desktop */
+      padding: 90px 90px;
+      display: block; /* Adjust padding for desktop */
     }
 
     

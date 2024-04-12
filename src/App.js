@@ -20,11 +20,10 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} /> 
-          <Route path="/ensaio" element={<Ensaio />} />
-          <Route path="/15anos" element={<Debutante />} />
-          <Route path="/convidada" element={<Convidada />} />
-          <Route path="/formanda" element={<Formanda />} />
-          <Route path="/noiva" element={<Noiva />} />
+          <Route path="/piercing" element={<Ensaio />} />
+          <Route path="/pontilhismo" element={<Convidada />} />
+          <Route path="/blackwork" element={<Formanda />} />
+          <Route path="/preto&cinza" element={<Noiva />} />
         </Routes>
       </div>
     </Router>

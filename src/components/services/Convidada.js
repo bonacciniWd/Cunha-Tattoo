@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './Convidada.css';
 import videoUrl from '../assets/bg-video.mp4';
-import Imagem from '../assets/cv2.jpg';
+import Imagem from '../assets/Imagem3.jpg';
 import ContactButton from './ContactButton';
 
-import cv1 from '../assets/cv1.jpg';
-import cv2 from '../assets/cv2.jpg';
-import cv3 from '../assets/cv3.jpg';
-import cv4 from '../assets/cv4.jpg';
-import cv5 from '../assets/cv5.jpg';
+import cv1 from '../assets/p1.jpg';
+import cv2 from '../assets/p2.jpg';
+import cv3 from '../assets/p3.jpg';
+import cv4 from '../assets/p4.jpg';
+import cv5 from '../assets/p5.jpg';
 
 
 const Convidada = () => {

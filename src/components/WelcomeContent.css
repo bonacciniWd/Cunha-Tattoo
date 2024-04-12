@@ -29,34 +29,31 @@
 
 @media screen and (max-width: 768px) {
   .inicio-vid {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 300px;
     object-fit: cover;
+    border-radius: 10px;
     border: 3px solid #fffefe;
   }
 
   .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ff000097;
-    border-radius: 20%;
+   
+    background-color: transparent;
     color: #ffffff;
-    border: solid 1px #000;
-    font-size: 1.5rem;
-    padding: 12px 18px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
     cursor: pointer;
     outline: none;
     transition: background-color 0.3s;
   }
 
   .play-button:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .gabriel {
-    width: 350px;
+    width: 300px;
     height: auto;
     position: relative;
     animation: slideUp 1s ease-out forwards;
@@ -76,6 +73,7 @@
   .content {
     margin-top: 25px;
     text-align: center;
+
     justify-content: center; /* Ajustado para o centro */
     align-items: center; /* Ajustado para o centro */
     padding: 50px;
@@ -84,7 +82,7 @@
 
   .h1 {
     color: #ff0000;
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-family: 'disney'; /* Alterado para a fonte personalizada */
   }
 

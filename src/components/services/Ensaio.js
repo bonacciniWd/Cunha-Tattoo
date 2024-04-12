@@ -38,9 +38,9 @@ useEffect(() => {
       <div className="new-cont">
         <div className="image-bl">
           <img src={Imagem} alt="Nova Imagem" /> 
-          <p className="c-1-title">Ensaio</p>  
-          <p className="c-1">Nosso acervo é composto por acessórios das melhores marcas do mercado nacional. <br/> Peças marcantes que ficam maravilhosas em fotos de ensaios corporativas, de gestantes e pré wedding.</p>
-          <ContactButton message="Olá! eu vim através do site da Soberana, e gostaria de mais informações sobre os serviços de Ensaios Fotográficos." />
+          <p className="c-1-title">BODY PIERCING</p>  
+          <p className="c-1">O body piercing é uma forma de modificação corporal que envolve a perfuração de partes do corpo para a inserção de joias decorativas.<br/><br/>Originado há milhares de anos em várias culturas ao redor do mundo, o body piercing evoluiu para se tornar uma expressão moderna de estilo pessoal e autoexpressão.  </p>
+          <ContactButton message="Olá! eu vim através do seu site, e gostaria de mais informações sobre Body piercing." />
         </div>
       </div>  
       <div className="art-gallery">
