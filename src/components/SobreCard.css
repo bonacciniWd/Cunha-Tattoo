@@ -2,9 +2,9 @@
         .map {
             border-radius: 10px;
             border: 1px solid #ff0000;
-            height: 160px;
-            width: auto;
-            margin: 8px;
+            width: 350px;
+            height: 350px;
+            margin: 20px;
         }
 
         .tilt-container {
@@ -30,8 +30,9 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
             margin-top: 50px;
-            max-width: 300px;
+            max-width: auto;
             border: 2px solid  #ffd700;
+            margin-bottom: 100px;
         }
         
         .contact-card h2 {

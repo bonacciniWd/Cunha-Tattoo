@@ -7,15 +7,15 @@
   .content {
     margin-top: 60px;
     text-align: center;
-    justify-content: center; /* Ajustado para o centro */
-    align-items: center; /* Ajustado para o centro */
+    justify-content: center;
+    align-items: center;
     padding: 50px;
   }
 
   .h1 {
     color: #ff0000;
     font-size: 38px;
-    font-family: 'disney'; /* Alterado para a fonte personalizada */
+    font-family: 'disney';
   }
 
   .p {
@@ -25,19 +25,61 @@
     margin-right: 13%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
+  .p-2 {
+    color: #fff;
+    margin-top: 25%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 50px;
+    border: #ff0000 2px dashed;
+    border-radius: 10%/90%;
+    background: #00000066;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
   .inicio-vid {
-    width: 100%;
-    height: 300px;
+    width: 350px !important;
+    height: 450px !important;
     object-fit: cover;
-    border-radius: 10px;
-    border: 3px solid #fffefe;
+    margin-left: 15px;
+    border-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: 3px solid #ff0000;
   }
 
+  .thumbnail-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px; /* Adapte o valor conforme necessário para corresponder ao border-radius do player */
+    overflow: hidden;
+  }
+  
+  .thumbnail-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
   .play-button {
-   
     background-color: transparent;
     color: #ffffff;
     border: none;
@@ -73,9 +115,8 @@
   .content {
     margin-top: 25px;
     text-align: center;
-
-    justify-content: center; /* Ajustado para o centro */
-    align-items: center; /* Ajustado para o centro */
+    justify-content: center;
+    align-items: center;
     padding: 50px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
@@ -83,7 +124,7 @@
   .h1 {
     color: #ff0000;
     font-size: 2.2rem;
-    font-family: 'disney'; /* Alterado para a fonte personalizada */
+    font-family: 'disney';
   }
 
   .p {

@@ -96,11 +96,11 @@
       border-radius: 5px;  
       margin-left: 25px;
       border: 2px solid transparent;
-      background: linear-gradient(to bottom, #ffd700, white);
+      background: linear-gradient(to bottom, #ff1e00, white);
     }
     
     .text {
-      background: linear-gradient(to right, #ffd700, #c0c0c0);
+      background: linear-gradient(to right, #dc0a0a, #c0c0c0);
       -webkit-background-clip: text;
       color: transparent;
       margin-left: 25px;
@@ -109,11 +109,12 @@
     .description {
       overflow: hidden;
       white-space: break-spaces;
+      animation: pulseRight 1s infinite alternate;
+      padding: 10px 15px;
       margin-left: 25px;
       margin-top: -10px;
-      color: white;
+      color: rgb(253, 253, 253);
       font-size: medium;
-      animation: stretchTextDesktop 2s infinite alternate;
     }
   
 

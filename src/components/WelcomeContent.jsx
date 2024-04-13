@@ -1,40 +1,23 @@
-import React, { useState, useRef } from 'react';
+import React from 'react';
+import ReactPlayer from 'react-player';
 import './WelcomeContent.css';
 
+import thumbUrl from '../components/assets/inicio.jpg';
 
 import videoUrl from '../components/assets/inicio.mp4';
 
-import { FaPlay, FaPause } from 'react-icons/fa'; // Importa os ícones de play e pause do Font Awesome
-
 const WelcomeContent = () => {
-  const videoRef = useRef(null);
-  const [playing, setPlaying] = useState(false);
-
-  const handlePlay = () => {
-    setPlaying(true);
-    videoRef.current.play();
-  };
-
-  const handlePause = () => {
-    setPlaying(false);
-    videoRef.current.pause();
-  };
-
   return (
     <div className="content">
       <h1 className='h1'>Tattoo & Piercer</h1>
-      <video ref={videoRef} className="inicio-vid" autoPlay={false} muted={false} loop={true}>
-        <source src={videoUrl} type="video/mp4" />
-      </video>
-      {!playing ? (
-        <button className="play-button" onClick={handlePlay}>
-          <FaPlay /> 
-        </button>
-      ) : (
-        <button className="play-button" onClick={handlePause}>
-          <FaPause /> 
-        </button>
-      )}
+      <ReactPlayer
+        url={videoUrl}
+        className="inicio-vid"
+        playing={true}
+        loop={true}
+        controls={true}
+        light={<div className="thumbnail-container"><img src={thumbUrl} alt="Thumbnail" /></div>} 
+      />
       <p className='p-2'>Meus Serviços</p>
     </div>
   );

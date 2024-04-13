@@ -34,14 +34,14 @@
 /* Estilo do iframe para dispositivos menores que 769px */
 @media screen and (max-width: 768px) {
   iframe {
-    width: 100%; /* Largura total do iframe */
-    max-width: 100%; /* Largura máxima do iframe (ajuste conforme necessário) */
+    width: 350px; /* Largura total do iframe */
+    max-width: 80vh; /* Largura máxima do iframe (ajuste conforme necessário) */
     height: 563px; /* Altura do iframe (ajuste conforme necessário) */
     border: none; /* Remover a borda do iframe */
     border-radius: 5px; /* Borda arredondada (pode ajustar conforme necessário) */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6); /* Sombra (pode ajustar conforme necessário) */
     margin-top: 0px; /* Espaçamento superior (ajuste conforme necessário) */
-    border: 2px solid #ffd700;
+    border: 4px solid #ff000087;
   }
 }
 
