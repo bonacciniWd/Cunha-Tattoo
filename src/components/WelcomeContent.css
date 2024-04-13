@@ -9,7 +9,33 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 10px;
+    display: block;
+  }
+
+  .inicio-vid {
+    width: 600px !important;
+    height: 600px !important;
+    display: block;
+    object-fit: cover;
+    border-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: 3px solid #ff0000;
+    margin: 0 auto; /* Adicionado para centralizar horizontalmente */
+  }
+
+  .thumbnail-container {
+    width: 600px;
+    height: 600px;
+    border-radius: 18px; /* Adapte o valor conforme necessário para corresponder ao border-radius do player */
+    overflow: hidden;
+  }
+  
+  .thumbnail-container img {
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
   }
 
   .h1 {
@@ -38,6 +64,8 @@
     background: #00000066;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     animation: pulse 2s infinite;
+    width: 200px;
+    display: flex;
   }
 
   @keyframes pulse {
@@ -55,10 +83,9 @@
 
 @media screen and (max-width: 768px) {
   .inicio-vid {
-    width: 350px !important;
-    height: 450px !important;
+    width: 50dvh !important;
+    height: 50dvh !important;
     object-fit: cover;
-    margin-left: 15px;
     border-radius: 18px;
     border-bottom-right-radius: 18px;
     border-bottom-right-radius: 18px;
